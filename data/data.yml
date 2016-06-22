@@ -1,9 +1,9 @@
 global:
  width: 600px
  spacing: 20px
- background: "#DEE0E2"
- text-color: "#505050"
- headline-color: "#00859E"
+ background: "#eeeeee"
+ text-color: "#666666"
+ headline-color: "#999999"
  font-family: Calibri, Helvetica, Arial, sans-serif
  font-size:
   normal: 12px
@@ -14,7 +14,7 @@ global:
  anchor:
   color: "#2199e8"
  image:
-  path: http://localhost/themes/klicktel_mail/assembleMail/_dist/public/images/
+  path: http://placehold.it/
 
 preheader:
- message: Wir sind die erste Adresse für erfolgreiches Online-Marketing in Ihrer Branche.
+ message: "Great newsletter from company XY"

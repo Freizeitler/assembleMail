@@ -204,7 +204,7 @@ module.exports = function(grunt) {
   // The default task to run with the `grunt` command
   grunt.registerTask('default', ['watch', 'assemble']);
 
-  grunt.registerTask('assemble-mail', ['assemble', 'copy:main'/*, 'emailBuilder:inline', 'emailBuilder:emailTest'*/]);
+  grunt.registerTask('assemble-mail', ['assemble', 'copy:main', 'emailBuilder:inline'/*, 'emailBuilder:emailTest'*/]);
 
   grunt.registerTask('clean-build', ['clean:build']);
 
