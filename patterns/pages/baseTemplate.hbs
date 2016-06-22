@@ -1,0 +1,120 @@
+---
+
+header:
+ image:
+  src: logo_2.jpg
+  alt: klicktel Logo
+ text: |
+  Firmennummer: {{faid}}<br>
+  Bitte bei Rückfragen angeben.
+
+teaser_hero:
+ image:
+  src: hero.jpg
+  alt: Hero Teaser
+
+intro:
+ salutation: "Sehr geehrter {{ anrede }},"
+ text: |
+  wir gratulieren Ihnen ganz herzlich zu Ihrem neuen Werbe-Eintrag. Mit diesem professionellen Online-Auftritt ist Ihr Unternehmen für Interessenten im richtigen Moment <strong>sehr gut sichtbar</strong>. <br><br>
+
+  Neben der guten Sichtbarkeit kann eine <strong>hohe Glaubwürdigkeit</strong> Ihr Ansehen bei möglichen Kunden sehr positiv beeinflussen. Diese erzielen Sie mit Ihrer Präsenz auf unserem großen Bewertungsportal werkenntdenBESTEN.de!
+
+columns_half:
+ headline:
+  left: "Ihre Vorteile durch den Werbeeintrag:"
+ list:
+  left:
+   content:
+    - text: <strong>Sichtbarkeit</strong><br>Ihre Top-Position auf 11880.com &amp; klicktel.de hebt sich deutlich von Ihren Wettbewerbern ab!
+    - text: <strong>Auffindbarkeit</strong><br>Lassen Sie sich über 5 Branchen/Suchworte von Interessenten einfach besser finden!
+    - text: <strong>Professionell</strong><br>Zeigen Sie mit bis zu 50 Fotos &amp; 5 PDF-Downloaddateien was Sie zu bieten haben!
+    - text: <strong>Signalwirkung</strong><br>Sichtbare Werbung in Branchen-Einträgen Ihrer Wettbewerber!
+ image:
+  right:
+   src: vorteile-rechts.jpg
+
+button_produktinfos:
+ label: "{{ Hier klicken für weitere<br>Produktinformationen }}"
+
+hl_ueberblick:
+ text: "Ihr Produkt im Überblick:"
+ bg-color: "#F18E06"
+
+hl_vorteile:
+ text: "Ihre Vorteile:"
+ bg-color: "#F18E06"
+
+nextsteps:
+ - step: Sie erhalten eine Buchungsbestätigung und werden über den weiteren Ablauf informiert
+ - step: Sie senden uns Ihr gewünschtes Bild- & Textmaterial über die Upload-Funktion in Ihrem Kundenbereich.
+ - step: Nach dem ausführlichen Erstgespräch mit Ihrem Producer erfolgt die finale Materialauswahl.
+ - step: "In den darauffolgenden vier Wochen wird Ihre {{ Website Bronze }} erstellt."
+ - step: "Nach Ferigstellung Ihrer {{ Website Bronze }} kontaktiert Ihr Producer Sie für das Abnahmegespräch."
+
+table_products:
+ header:
+  - title: Produkt
+  - title: "Sonderkonditionen"
+  - title: "Preis/Monat <br>ab [2. Monat]"
+ body:
+  row-1:
+   - text: Präsenz-Paket
+   - text: "[30 Tage] kostenlos"
+   - text: "69,00 €"
+  row-2:
+   - text: Präsenz-Paket-Profi
+   - text: "[45 Tage] kostenlos"
+   - text: "<strong>75,00 €</strong>"
+  row-3:
+   - text: Präsenz-Paket-Mega
+   - text: "[45 Tage] kostenlos"
+   - text: "75,00 €"
+ remark: alle Preise zzgl. ges. MwSt.
+
+outro_dirk-job:
+ full-contact: true
+
+footer:
+ color: "#FFFFFF"
+ background: "#00859E"
+
+---
+
+{{ organism "preheader" }}
+
+{{ organism "header_logo" }}
+
+{{ organism "teaser_hero" }}
+
+{{ organism "intro" }}
+
+{{ organism "spacer" }}
+
+{{ organism "columns_half" }}
+
+{{ atom "button_orange" button_produktinfos }}
+
+{{ organism "spacer" }}
+
+{{ atom "headline_bar" hl_vorteile }}
+
+{{ organism "spacer" }}
+
+{{ organism "nextsteps" }}
+
+{{ organism "spacer" }}
+
+{{ atom "headline_bar" hl_ueberblick }}
+
+{{ organism "spacer" }}
+
+{{ organism "table_products" }}
+
+{{ organism "spacer" }}
+
+{{ organism "outro_dirk-job" }}
+
+{{ organism "spacer" }}
+
+{{ organism "footer" }}

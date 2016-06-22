@@ -1,0 +1,46 @@
+# =============================================
+# PROJECT METADATA
+# =============================================
+
+title:          "Assemble &raquo; Pattern Lab"
+
+# =============================================
+# DEST CONFIG
+# =============================================
+
+base:           _dist
+dest:           <%= site.base %>
+assets:         <%= site.base %>/public
+
+# =============================================
+# SOURCE CONFIG
+# =============================================
+
+# Data
+data:           data
+
+# Templates
+structure:      templates
+includes:       <%= site.structure %>/includes
+layouts:        <%= site.structure %>/layouts
+layout:         default
+layoutext:      .hbs
+
+# Extensions
+helpers:
+- <%= site.structure %>/_helpers
+
+plugins:
+- assemble-contrib-permalinks
+
+
+# =============================================
+# PATTERN LAB TEMPLATES
+# =============================================
+
+patterns:       patterns
+atoms:          <%= site.patterns %>/atoms
+molecules:      <%= site.patterns %>/molecules
+organisms:      <%= site.patterns %>/organisms
+templates:      <%= site.patterns %>/templates
+pages:          <%= site.patterns %>/pages

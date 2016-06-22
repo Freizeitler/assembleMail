@@ -1,0 +1,32 @@
+<table class="row">
+	<tbody>
+
+		<tr>
+			<th class="small-12 large-12 columns first last">
+				<table>
+					<tr>
+						{{#each table_products.header }}
+							{{#if @first}}<th valign="top" bgcolor="#00859E" style="color: #ffffff; padding: 10px {{ ../../global.spacing }}; font-weight: bold; border-bottom: 5px solid #ffffff;">{{{title}}}</th>{{/if}}
+							{{#unless @first}}<th valign="top" bgcolor="#00859E" style="color: #ffffff; text-align: center; padding: 10px {{ ../../global.spacing }}; font-weight: bold; border-bottom: 5px solid #ffffff;">{{{title}}}</th>{{/unless}}
+						{{/each}}
+					</tr>
+
+					{{#each table_products.body}}
+					<tr>
+						{{#each this }}
+							{{#if @first}}<th style="padding: 10px {{ ../../../global.spacing }}; background: #E6E6E6;">{{{ text }}}</th>{{/if}}
+							{{#unless @first}}<th style="text-align: center; padding: 10px {{ ../../../global.spacing }}; background: #E6E6E6;">{{{ text }}}</th>{{/unless}}
+						{{/each}}
+					</tr>
+					{{/each}}
+
+					<tr>
+						<th colspan="3" style="font-size: {{global.font-size.small }}; padding: 10px {{ global.spacing }};">{{{ table_products.remark }}}</th>
+					</tr>
+				</table>
+			</th>
+		</tr>
+
+	</tbody>
+</table>
+

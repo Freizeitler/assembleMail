@@ -1,0 +1,29 @@
+{
+  "name": "assembleHTML",
+  "version": "1.0.0",
+  "private": "true",
+  "author": "menadwork kommunikation GmbH (http://www.menadwork.com)",
+  "devDependencies": {
+    "assemble": "^0.4.37",
+    "assemble-contrib-permalinks": "~0.3.6",
+    "fs-utils": "^0.3.6",
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-csswring": "latest",
+    "grunt-string-replace": "^1.2.1",
+    "handlebars-helper-rel": "^0.1.2",
+    "lodash": "^2.4.1",
+    "matchdep": "latest",
+    "time-grunt": "latest",
+    "grunt-email-builder": "^3.1.0"
+  }
+}

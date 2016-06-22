@@ -1,0 +1,50 @@
+<table class="row">
+	<tbody>
+		<tr>
+			<th class="small-12 large-6 columns first">
+				<table>
+					<tr>
+						<th>
+							{{#if columns_half.headline.left }}
+							<h2>{{{ columns_half.headline.left }}}</h2>
+							{{/if}}
+							{{#if columns_half.text.left}}
+								{{{ columns_half.text.left }}}
+							{{/if}}
+							{{#if columns_half.list.left}}
+								{{#each columns_half.list.left.content }}
+									{{ atom "list_check" }}
+								{{/each}}
+							{{/if}}
+							{{#if columns_half.image.left}}
+								<img src="{{ global.image.path }}{{ columns_half.image.left.src }}" alt="" />
+							{{/if}}
+						</th>
+					</tr>
+				</table>
+			</th>
+			<th class="small-12 large-6 columns last">
+				<table>
+					<tr>
+						<th>
+							{{#if columns_half.headline.right }}
+							<h2>{{{ columns_half.headline.right }}}</h2>
+							{{/if}}
+							{{#if columns_half.text.right}}
+							{{{ columns_half.text-right }}}
+							{{/if}}
+							{{#if columns_half.list.right}}
+								{{#each columns_half.list.right.content }}
+									{{ atom "list_check" }}
+								{{/each}}
+							{{/if}}
+							{{#if columns_half.image.right}}
+							<img src="{{ global.image.path }}{{ columns_half.image.right.src }}" alt="" />
+							{{/if}}
+						</th>
+					</tr>
+				</table>
+			</th>
+		</tr>
+	</tbody>
+</table>

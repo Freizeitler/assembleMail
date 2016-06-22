@@ -1,0 +1,53 @@
+/**
+* Helper
+*
+* @desc Helper are classes and formattings which are used to accomplish repeating task. Mainly we use ds- for design-task and bv- for behavioral tasks.
+* @author [XX]
+* @dependency _app_settings.scss
+*/
+
+// Behavioral Tasks (.bv-)
+.bv-cf {
+	&:before,
+	&:after {
+    content: " ";
+    display: table;
+	}
+
+	&:after { clear: both; }
+}
+.bv-float-left { float: left; }
+.bv-float-right { float: right; }
+
+// Design Tasks (.ds-)
+@mixin ds-box-shadow ($color) { box-shadow: 3px 3px 3px $color; }
+@mixin ds-special-bullets ($bullet, $color) {
+  ul { list-style: none; margin-left: -5px;  padding: 0 0 0 25px;
+    li { margin-bottom: 5px;
+      &:last-child { margin-bottom: 0; }
+    }
+    li:before  {
+    	display: inline-block;
+    	width: 1.5em;
+    	height: 15px;
+    	font-size: 1.2em;
+    	text-align: center;
+    	color: $color;
+    	margin: 0 0 0 -26px;
+    	content: $bullet;
+    	line-height: 1.7;
+    	position:relative;
+    	bottom: 1px;  }
+  }
+}
+
+// Media Queries (from min to max)
+@media (min-width: $breakpoint-min) { }
+
+@media (min-width: $breakpoint-small) { }
+
+@media (min-width: $breakpoint-medium) { }
+
+@media (min-width: $breakpoint-large) { }
+
+@media (min-width: $breakpoint-max) { }

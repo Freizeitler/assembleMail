@@ -1,0 +1,21 @@
+/**
+* Basic Styles
+*
+* @desc Basic and common styles. Formats for every device live in Common Styles, for device-specific stylings use Mobile First approach.
+* @author [XX]
+* @dependency _app_settingsscss
+*/
+
+// Common Styles
+body { }
+
+// Media Queries (from min to max)
+@media (min-width: $breakpoint-min) { }
+
+@media (min-width: $breakpoint-small) { }
+
+@media (min-width: $breakpoint-medium) { }
+
+@media (min-width: $breakpoint-large) { }
+
+@media (min-width: $breakpoint-max) { }

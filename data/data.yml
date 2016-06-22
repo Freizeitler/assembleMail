@@ -1,0 +1,20 @@
+global:
+ width: 600px
+ spacing: 20px
+ background: "#DEE0E2"
+ text-color: "#505050"
+ headline-color: "#00859E"
+ font-family: Calibri, Helvetica, Arial, sans-serif
+ font-size:
+  normal: 12px
+  small: 10px
+  big: 18px
+ line-height:
+  normal: "1.3"
+ anchor:
+  color: "#2199e8"
+ image:
+  path: http://localhost/themes/klicktel_mail/assembleMail/_dist/public/images/
+
+preheader:
+ message: Wir sind die erste Adresse für erfolgreiches Online-Marketing in Ihrer Branche.

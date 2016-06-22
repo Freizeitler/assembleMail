@@ -1,0 +1,18 @@
+/**
+* Example
+*
+* @desc Just an example file
+* @author [XX]
+* @dependency _app_settingsscss
+*/
+
+// Media Queries (from min to max)
+@media (min-width: $breakpoint-min) { }
+
+@media (min-width: $breakpoint-small) { }
+
+@media (min-width: $breakpoint-medium) { }
+
+@media (min-width: $breakpoint-large) { }
+
+@media (min-width: $breakpoint-max) { }
